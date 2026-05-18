@@ -11,6 +11,34 @@
 </head>
 <body>
 
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" id="navbar">
+  <a href="index.html" class="navbar__logo">
+    <div class="navbar__logo-badge">CA</div>
+    <span class="navbar__logo-name">CA Escritório Representações</span>
+  </a>
+
+  <div class="navbar__nav">
+    <a href="../index.html" class="navbar__link navbar__link--active">Início</a>
+    <a href="../Sobre-Campos-Alves/sobre.html" class="navbar__link">Sobre</a>
+    <a href="../Landin-page/services-campo-alves/campos-alves-servicos.html" class="navbar__link">Serviços</a>
+    <a href="../Contato-campo-alves/Contato.html" class="navbar__link navbar__link--contato">Contato</a>
+  </div>
+
+  <!-- Hamburger mobile -->
+  <div class="navbar__toggle" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Menu mobile -->
+<div class="navbar__mobile" id="mobileMenu">
+  <a href="index.html" onclick="closeMenu()">Início</a>
+  <a href="Sobre-campo-Alves/sobre-section.html" onclick="closeMenu()">Sobre</a>
+  <a href="#servicos" onclick="closeMenu()">Serviços</a>
+  <a href="Contato-campo-alves/Contato.html" onclick="closeMenu()" class="navbar__mobile-cta">Contato</a>
+</div>
+
 <section class="products-section">
   <div class="noise-overlay"></div>
   <div class="container">
@@ -203,6 +231,23 @@
 
   </div>
 </section>
+<script>
+  function toggleMenu() {
+    const m = document.getElementById('mobileMenu');
+    const bars = document.querySelectorAll('.navbar__toggle span');
+    m.classList.toggle('open');
+    const open = m.classList.contains('open');
+    bars[0].style.transform = open ? 'translateY(5.5px) rotate(45deg)' : '';
+    bars[1].style.opacity   = open ? '0' : '1';
+    bars[2].style.transform = open ? 'translateY(-5.5px) rotate(-45deg)' : '';
+  }
+  function closeMenu() {
+    document.getElementById('mobileMenu').classList.remove('open');
+    document.querySelectorAll('.navbar__toggle span').forEach(s => {
+      s.style.transform = ''; s.style.opacity = '1';
+    });
+  }
+</script>
 
 </body>
 </html>
