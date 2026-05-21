@@ -116,8 +116,11 @@ nav {
 .nav-links a:hover { color: var(--white); }
 
 .nav-links a.active {
-  color: var(--gold);
+  color: var(--navy-4);
   font-weight: 600;
+  border: 0.5px solid var(--gold);
+  background-color: var(--gold);
+  border-radius: 1em;
 }
 
 /* ================================================
@@ -230,7 +233,7 @@ nav {
   font-size: clamp(2.2rem, 4vw, 3.4rem);
   font-weight: 600;
   line-height: 1.15;
-  color: var(--white);
+  color: var(--gold);
   letter-spacing: 0.01em;
   margin-bottom: 20px;
   max-width: 580px;

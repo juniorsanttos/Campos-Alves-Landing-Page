@@ -106,7 +106,7 @@ body {
   font-weight: 500;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: var(--silver-dim);
+  color: var(--white);
   text-decoration: none;
   padding: 8px 18px;
   position: relative;
@@ -129,16 +129,19 @@ body {
 .navbar__link:hover::after { transform: scaleX(1); }
 
 .navbar__link--active {
-  color: var(--gold);
+  color: var(--silver);
   font-weight: 600;
 }
 .navbar__link--active::after { transform: scaleX(0.5); opacity: 0.6; }
 
 .navbar__link--contato {
-  color: var(--gold);
+  color: var(--navy-1);
   font-weight: 600;
+  border: 0.5px solid var(--gold) ;
+  background-color: var(--gold);
+  border-radius: 1em;
 }
-.navbar__link--contato:hover { color: var(--gold-light); }
+.navbar__link--contato:hover { color: var(--white); }
 .navbar__link--contato::after { display: none; }
 
 /* Hamburger */

@@ -119,8 +119,11 @@ body {
 
 /* Link ativo — dourado, sem botão, igual ao print */
 .navbar__link--active {
-  color: var(--gold);
+  color: var(--navy-4);
   font-weight: 600;
+  border: 1px solid var(--gold);
+  background-color: var(--gold);
+  border-radius: 1em;
 }
 
 /* ================================================
@@ -351,7 +354,7 @@ body {
   font-family: var(--font-serif);
   font-size: clamp(2.1rem, 3.4vw, 3.1rem);
   font-weight: 600;
-  color: var(--white);
+  color: var(--gold);
   line-height: 1.15;
   letter-spacing: 0.01em;
 }
