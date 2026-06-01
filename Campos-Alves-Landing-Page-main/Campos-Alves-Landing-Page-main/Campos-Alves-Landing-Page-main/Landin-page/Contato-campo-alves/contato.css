@@ -65,6 +65,7 @@ nav {
   gap: 13px;
   text-decoration: none;
   flex-shrink: 0;
+  color: var(--gold);
 }
 
 .nav-logo span {
