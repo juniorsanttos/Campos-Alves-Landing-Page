@@ -409,6 +409,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: opacity 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .btn-primary:hover { opacity: 0.88; }
@@ -424,6 +427,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: color 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .btn-outline:hover {
