@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campos Alves Representações – Sheina Campos Alves</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" id="navbar">
+  <a href="index.html" class="navbar__logo">
+    <div class="navbar__logo-badge">CA</div>
+    <span class="navbar__logo-name">CA Escritório Representações</span>
+  </a>
+
+  <div class="navbar__nav">
+    <a href="index.html" class="navbar__link navbar__link--active">Início</a>
+    <a href="Sobre-Campos-Alves/sobre.html" class="navbar__link">Sobre</a>
+    <a href="services-campo-alves/campos-alves-servicos.html" class="navbar__link">Serviços</a>
+    <a href="../Campos-Alves-Landing-Page-main/Representacao-Campo-Alves/representacao.html" class="navbar__link">Representação
+    </a>
+    <a href="Contato-campo-alves/Contato.html" class="navbar__link navbar__link--contato">Contato</a>
+  </div>
+
+  <!-- Hamburger mobile -->
+  <div class="navbar__toggle" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Menu mobile -->
+<div class="navbar__mobile" id="mobileMenu">
+  <a href="index.html" onclick="closeMenu()">Início</a>
+  <a href="/Campos-Alves-Landing-Page-main/Sobre-Campos-Alves/sobre.html" onclick="closeMenu()">Sobre</a>
+  <a href="/Campos-Alves-Landing-Page-main/services-campo-alves/campos-alves-servicos.html" onclick="closeMenu()">Serviços</a>
+  <a href="/Campos-Alves-Landing-Page-main/Contato-campo-alves/Contato.html" onclick="closeMenu()" class="navbar__mobile-cta">Contato</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="sobre">
+
+  <!-- Grade e glow de fundo -->
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <!-- Ícones decorativos de fundo -->
+  <div class="hero__bg-icons" aria-hidden="true">
+    <span class="bg-icon">🤝</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">🏗️</span>
+    <span class="bg-icon">💼</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">📋</span>
+    <span class="bg-icon">💼</span>
+    <span class="bg-icon">🏆</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">🤝</span>
+    <span class="bg-icon">📋</span>
+    <span class="bg-icon">🏆</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">💼</span>
+    <span class="bg-icon">🤝</span>
+    <span class="bg-icon">🏆</span>
+    <span class="bg-icon">📋</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">🤝</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">💼</span>
+    <span class="bg-icon">🏆</span>
+    <span class="bg-icon">📋</span>
+    <span class="bg-icon">🤝</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">💼</span>
+    <span class="bg-icon">🏗️</span>
+    <span class="bg-icon">📋</span>
+    <span class="bg-icon">⭐</span>
+    <span class="bg-icon">🏆</span>
+  </div>
+
+  <div class="hero-split">
+    <!-- LADO ESQUERDO: texto -->
+    <div class="hero-left">
+      <div class="hero-identity-inline">
+        <div class="hero-avatar">
+          <img src="/Campos-Alves-Landing-Page-main/Imagens-Campo-Alves/Foto-Sheina.png" alt="Sheina Campos Alves">
+        </div>
+        <div>
+          <div class="hero-role-tag">Representante Comercial</div>
+          <div class="hero-name">Sheina <span>Campos Alves</span></div>
+          <div class="hero-name-rule"></div>
+        </div>
+      </div>
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-line"></span>
+        <span class="hero-eyebrow-text">Campos Alves Representações</span>
+      </div>
+      <h1 class="hero-title">Confiança<br>que <em>representa.</em></h1>
+      <p class="hero-subtitle">Conectando marcas de confiança a lojistas e profissionais da construção civil no Recôncavo Baiano.</p>
+      <div class="hero-buttons">
+        <a href="../Landin-page/Contato-campo-alves/Contato.html" class="btn-primary">Seja parceiro</a>
+        <a href="../Landin-page/services-campo-alves/campos-alves-servicos.html" class="btn-outline">Conheça as marcas</a>
+      </div>
+    </div>
+    <!-- LADO DIREITO: foto -->
+    <div class="hero-right">
+      <div class="hero-photo-frame">
+        <img src="/Campos-Alves-Landing-Page-main/Imagens-Campo-Alves/Foto-Sheina-sem-fundo.png" alt="Sheina Campos Alves" class="hero-photo-main">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRUST BAR ===================== -->
+<div class="trust-bar">
+  <div class="trust-item"><div class="trust-num">+10</div><div class="trust-label">Marcas representadas</div></div>
+  <div class="trust-item"><div class="trust-num">BA</div><div class="trust-label">Recôncavo Baiano</div></div>
+  <div class="trust-item"><div class="trust-num">100%</div><div class="trust-label">Compromisso</div></div>
+</div>
+
+<!-- ===================== HISTÓRIA ===================== -->
+<section class="story-section">
+  <div class="story-inner">
+    <div class="section-tag">Minha história</div>
+    <h2 class="section-title">De estoquista a<br>empreendedora</h2>
+    <div class="story-quote"><p>"Foi ali, entre caixas e muitos materiais, que eu percebi meu potencial."</p></div>
+    <p class="story-body">Antes de empreender, comecei como estoquista em uma grande empresa do setor da construção civil. Sempre sonhei em ter algo meu — e foi nesse ambiente que aprendi a atender com agilidade, resolver demandas e ir além.<br><br>Num mercado dominado por homens, criei a Campos Alves Representações. Hoje, no Recôncavo Baiano, o nome é sinônimo de confiança, presença e resultado.</p>
+  </div>
+  <div class="story-visual">
+    <div style="background:var(--navy);border:1px solid rgba(196,151,42,0.25);border-radius:12px;padding:32px;height:100%;min-height:280px;display:flex;flex-direction:column;justify-content:center;gap:20px;">
+      <div style="display:flex;align-items:center;gap:14px;">
+        <div style="width:48px;height:48px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">🏗️</div>
+        <div>
+          <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;">Setor</div>
+          <div style="font-size:15px;color:var(--white);font-weight:500;">Construção Civil</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:14px;">
+        <div style="width:48px;height:48px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">📍</div>
+        <div>
+          <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;">Região</div>
+          <div style="font-size:15px;color:var(--white);font-weight:500;">Recôncavo Baiano</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:14px;">
+        <div style="width:48px;height:48px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">🤝</div>
+        <div>
+          <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;">Atuação</div>
+          <div style="font-size:15px;color:var(--white);font-weight:500;">Marcas & Lojistas</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:14px;">
+        <div style="width:48px;height:48px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">⭐</div>
+        <div>
+          <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;">Diferencial</div>
+          <div style="font-size:15px;color:var(--white);font-weight:500;">Transparência & Resultado</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MISSÃO ===================== -->
+<section class="mission-section">
+  <div class="section-tag" style="justify-content:center">Nossa missão</div>
+  <div class="mission-badge">Confiança que representa</div>
+  <p class="mission-body">Representar empresas que agregam valor real para quem constrói, reforma e transforma espaços todos os dias.</p>
+</section>
+
+<!-- ===================== SERVIÇOS ===================== -->
+<section class="section" id="servicos" style="padding-top: 1em">
+  <div class="section-tag">O que ofereço</div>
+  <h2 class="section-title">Parcerias sólidas,<br>resultado de verdade</h2>
+  <div class="services-grid">
+    <div class="service-card"><div class="service-icon"><i class="ti ti-building-store"></i></div><div class="service-title">Representação de marcas</div></div>
+    <div class="service-card"><div class="service-icon"><i class="ti ti-users"></i></div><div class="service-title">Conexão com lojistas</div></div>
+    <div class="service-card"><div class="service-icon"><i class="ti ti-certificate"></i></div><div class="service-title">Transparência e confiança</div></div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" id="contato">
+  <span class="footer-brand">Campos Alves Representações</span>
+  <span class="footer-copy">Recôncavo Baiano · BA</span>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+</script>
+
+</body>
+</html>
